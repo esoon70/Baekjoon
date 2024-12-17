@@ -1,11 +1,12 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    int A;
-    scanf("%d", &A);
-    if (A == 0) {
-        printf("YONSEI");
+    int N;
+    cin >> N;
+    if (N == 0) {
+        cout << "YONSEI";
     } else {
-        printf("Leading the Way to the Future");
+        cout << "Leading the Way to the Future";
     }
-} 
+}
