@@ -1,5 +1,6 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    printf("I'm Sexy");
-} 
+    cout << "I'm Sexy";
+}
