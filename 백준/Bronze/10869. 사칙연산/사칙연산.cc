@@ -1,11 +1,12 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     int A, B;
-    scanf("%d %d", &A, &B);
-    printf("%d\n", A + B);
-    printf("%d\n", A - B);
-    printf("%d\n", A * B);
-    printf("%d\n", A / B);
-    printf("%d\n", A % B);
+    cin >> A >> B;
+    cout << A + B << '\n';
+    cout << A - B << '\n';
+    cout << A * B << '\n';
+    cout << A / B << '\n';
+    cout << A % B << '\n';
 }
