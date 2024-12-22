@@ -4,10 +4,10 @@ using namespace std;
 int main() {
     int N, A;
     int Hmoney = 0;
+    int money = 0;
     cin >> N;
     for (int i = 0; i < N; i++) {
         int count[7] = {0};
-        int money = 0;
         for (int j = 0; j < 4; j++) {
             cin >> A;
             count[A]++;
