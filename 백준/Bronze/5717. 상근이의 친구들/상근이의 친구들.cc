@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int M = 1, F = 1;
+    int M, F;
     while (true) {
         cin >> M >> F;
         if (M == 0 && F == 0) {
