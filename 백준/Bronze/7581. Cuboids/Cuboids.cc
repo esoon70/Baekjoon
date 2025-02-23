@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     while (true) {
-        int l = 0, w = 0, h = 0, v = 0;
+        int l, w, h, v;
         cin >> l >> w >> h >> v;
         if (l == 0 && w == 0 && h == 0 && v == 0) {
             break;
